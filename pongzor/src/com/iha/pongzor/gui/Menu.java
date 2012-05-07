@@ -1,4 +1,4 @@
-package com.iha.pongzor;
+package com.iha.pongzor.gui;
 
 import android.app.Activity;
 import android.os.Bundle;
