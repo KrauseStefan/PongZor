@@ -26,5 +26,5 @@
         <item>Two</item>
         <item>Three</item>
     </string-array>
-    <string name="Test">test</string>
+    <string name="Test">test1</string>
 </resources>
