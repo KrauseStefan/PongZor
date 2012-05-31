@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
     <string name="hello">Hello World</string>
-    <string name="app_name">User Application</string>
+    <string name="app_name">PongZor</string>
     <string name="sample_pref_click_pop_up">Click to pop up a list to choose from</string>
     <string name="sample_pref_sel_dialog">Selection Dialog</string>
     <string name="sample_pref_choose_number">Choose a number</string>
@@ -27,4 +27,7 @@
         <item>Three</item>
     </string-array>
     <string name="Test">test3</string>
+    <string name="highScore">Highcore</string>
+    <string name="highScore_Score">Score:</string>
+    <string name="highScore_Player">Player:</string>
 </resources>
