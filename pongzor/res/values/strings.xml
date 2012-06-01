@@ -26,7 +26,7 @@
         <item>Two</item>
         <item>Three</item>
     </string-array>
-    <string name="Test">test3</string>
+    <string name="Test">Bjarkes Test!</string>
     <string name="highScore">Highcore</string>
     <string name="highScore_Score">Score:</string>
     <string name="highScore_Player">Player:</string>
