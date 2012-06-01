@@ -9,6 +9,10 @@ import java.util.Map;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.ViewTreeObserver;
+import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
@@ -33,20 +37,24 @@ public class HighscoreActivity extends Activity {
 
 		ListView lv = (ListView) findViewById(R.id.highscore_list);
 
-		lv.setAdapter(createSimpleAdapter(hsList));
+		lv.setAdapter(createAdapter(hsList));
 	}
 
-	private ListAdapter createSimpleAdapter(List<HighScore> hsList) {
+	private ListAdapter createAdapter(List<HighScore> hsList) {
 
-		List<Map<String, String>> data = new ArrayList<Map<String, String>>();
 
-		String[] from = {"1", "2", "3", "4"};
-		int[] to = {1, 2, 3, 4};
-
+		ArrayAdapter<HighScore> arryAdapter = new ArrayAdapter<HighScore>(this, 0) {
+			@Override
+			public View getView (int position, View convertView, ViewGroup parent){
+				
+				View v = getLayoutInflater().inflate(R.layout.highscore_list_field, null);
+				
+				return v;
+			}
+		};
 		
 		
-		return new SimpleAdapter(this, data, R.layout.highscore_list_field,
-				from, to);
+		return arryAdapter;
 	}
 
 	private List<HighScore> createDummyData() {
