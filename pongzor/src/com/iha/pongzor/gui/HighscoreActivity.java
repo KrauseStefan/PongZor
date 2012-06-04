@@ -20,7 +20,7 @@ import com.iha.pongzor.*;
 
 public class HighscoreActivity extends Activity {
 
-	private List<Map<String, String>> hsData;
+	//private List<Map<String, String>> hsData;
 
 	/**
 	 * @see android.app.Activity#onCreate(Bundle)
@@ -69,7 +69,7 @@ public class HighscoreActivity extends Activity {
 		hsList.add(new HighScore("Lars", 9999, 130, d));
 		hsList.add(new HighScore("Linux Thorvaldsen", 1337, 1, d));
 		hsList.add(new HighScore("Signe", 2156, 180, d));
-		hsList.add(new HighScore("Børge", 88888, 580, d));
+		hsList.add(new HighScore("Bï¿½rge", 88888, 580, d));
 		hsList.add(new HighScore("Tina", 123456, 730, d));
 		hsList.add(new HighScore("Anette", 1, 10, d));
 		hsList.add(new HighScore("Frans", 89, 20, d));
