@@ -13,6 +13,6 @@
         </activity>
         <activity android:name="com.iha.pongzor.gui.Highscore"/>
         <activity android:name=".gui.Preferences"/>
-        <activity android:name="com.iha.pongzor.gui.Game"/>
+       <activity android:name="com.iha.pongzor.gui.Game"/>
     </application>
 </manifest>
