@@ -11,14 +11,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-        <activity android:name="com.iha.pongzor.gui.Highscore"/>
-        <activity android:name=".gui.Preferences"/>
-       <activity android:name="com.iha.pongzor.gui.Game"/>
-=======
         <activity android:name="com.iha.pongzor.gui.HighscoreActivity"/>
         <activity android:name="com.iha.pongzor.gui.Game"/>
         <activity android:name=".gui.Preferences"/>
->>>>>>> branch 'master' of http://agerskov@github.com/KrauseIHA/PongZor.git
     </application>
 </manifest>
