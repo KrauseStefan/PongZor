@@ -24,3 +24,4 @@ local.properties
 *.synctex.gz
 *.toc
 *.bbl
+*.DS_Store
