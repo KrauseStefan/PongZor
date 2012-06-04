@@ -7,8 +7,6 @@ import javax.microedition.khronos.opengles.GL10;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.Canvas;
-import android.graphics.Rect;
 import android.opengl.GLUtils;
 
 import com.iha.pongzor.framework.FileIO;

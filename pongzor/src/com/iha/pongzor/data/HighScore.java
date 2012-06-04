@@ -2,8 +2,6 @@ package com.iha.pongzor.data;
 
 import java.util.Date;
 
-import android.text.format.Time;
-
 public class HighScore {
 	private int score = 0;
 	private int seconds = 0;

@@ -9,7 +9,6 @@ import java.util.Map;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.BaseAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
@@ -18,7 +17,7 @@ import com.iha.pongzor.*;
 
 public class HighscoreActivity extends Activity {
 
-	private List<Map<String, String>> hsData;
+	//private List<Map<String, String>> hsData;
 
 	/**
 	 * @see android.app.Activity#onCreate(Bundle)
