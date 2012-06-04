@@ -3,16 +3,26 @@ package com.iha.pongzor.data;
 import java.util.Date;
 
 public class HighScore {
+	private String name = null;
 	private int score = 0;
 	private int seconds = 0;
 	private Date date = null;
 
-	public HighScore(int score, int seconds, Date date) {
+	public HighScore(String name, int score, int seconds, Date date) {
+
+		setName(name);
 		setScore(score);
 		setSeconds(seconds);
 		setDate(date);
 	}
 
+	public String getName() {
+		return name;
+	}
+
+	private void setName(String name) {
+		this.name = name;
+	}
 
 	public int getScore() {
 		return score;
